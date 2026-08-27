@@ -1,6 +1,6 @@
 {
   "name": "bt21-pets",
-  "version": "1.0.0",
+  "version": "1.1.4",
   "private": true,
   "description": "Electron desktop pet shell wired to finalized BT21 pet atlases.",
   "author": "BT21 Pets",
@@ -32,10 +32,12 @@
       "ipad-memo.css",
       "ipad-memo.js",
       "main.js",
+      "manifest.webmanifest",
       "package.json",
       "pet-data.js",
       "preload.js",
       "styles.css",
+      "sw.js",
       "rj/final/spritesheet.webp",
       "koya/final/spritesheet.webp",
       "shookt/final/spritesheet.webp",
@@ -78,7 +80,8 @@
       "artifactName": "BT21-Pets-win11-Setup-${version}.${ext}"
     },
     "portable": {
-      "artifactName": "BT21-Pets-win11-${version}.${ext}"
+      "artifactName": "BT21-Pets-win11-${version}.${ext}",
+      "unpackDirName": false
     }
   }
 }
